@@ -1,39 +1,11 @@
-# react-native-push-notification-app
-# React Native Push Notification App
+# Sample Snack app
 
-This project is a mobile application developed using React Native and Expo that demonstrates real-time push notifications. It simulates WhatsApp-style call alerts and supports background and killed-state delivery on Android devices, including Android 15.
+Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
 
-## Features
+When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
 
-- Push notifications using Expo Push API
-- Background and killed-state notification support
-- Local notification testing functionality
-- Android 15 compatibility
-- Deep linking data simulation via JSON payload
-- Built entirely online using Expo Snack (no installation required)
+All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
 
-## Technologies Used
+If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
 
-- React Native (JavaScript)
-- Expo SDK and Expo Go app
-- Expo Push Notifications API
-- Snack (Expo’s web-based development environment)
-
-## How to Run
-
-1. Open the project in Expo Snack or load the app in Expo Go using the shared QR code.
-2. On launch, the app displays the Expo Push Token associated with the device.
-3. Copy the token and use Expo’s notification tool at [https://expo.dev/notifications](https://expo.dev/notifications) to send a push notification.
-4. The device receives the notification, even if the app is in the background or not running.
-
-## Sample Push Payload
-
-```json
-{
-  "to": "ExponentPushToken[xxxxxxxxxxxxxxxxxxxxxx]",
-  "title": "Incoming Call",
-  "body": "Tanmai Kiran is calling you now!",
-  "data": {
-    "screen": "CallScreen"
-  }
-}
+Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
